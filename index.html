@@ -8,6 +8,10 @@
     <meta name="author" content="SMB Designs" />
     <meta name="keywords" content="luxury leather, handcrafted shoes, leather bags, Nigerian craftsmanship, bespoke leather goods" />
     <link rel="icon" type="image/svg+xml" href="placeholder.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -40,15 +44,15 @@
           <p class="hero-subtitle">Feel Luxury Within</p>
           <div class="hero-slider">
             <div class="slide active">
-              <img src="placeholder.svg" alt="Elegant black leather mule shoes">
+              <img src="ss1.png" alt="Elegant black leather mule shoes">
               <div class="slide-caption">Classic Black Mule</div>
             </div>
             <div class="slide">
-              <img src="placeholder.svg" alt="Handcrafted leather tote bag">
+              <img src="ss2.png" alt="Handcrafted leather tote bag">
               <div class="slide-caption">Heritage Tote</div>
             </div>
             <div class="slide">
-              <img src="placeholder.svg" alt="Premium oxford dress shoes">
+              <img src="sll.jpg" alt="Premium oxford dress shoes">
               <div class="slide-caption">Oxford Elite</div>
             </div>
             <div class="slider-indicators">
@@ -63,59 +67,217 @@
         </button>
       </section>
       <section id="categories" class="categories-section">
-        <div class="category shoes">
-          <div class="category-bg" style="background-image:url('placeholder.svg')"></div>
-          <div class="category-content">
-            <h2>SHOES</h2>
-            <p>Timeless leather. Crafted to move.</p>
-            <button class="cta">Explore Shoes</button>
+        <div class="container">
+          <div class="categories-header">
+            <h2>Curated Collections</h2>
+            <p>Discover our handcrafted masterpieces, where timeless elegance meets contemporary design.</p>
+          </div>
+          <div class="categories-grid">
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="ss1.png" alt="Luxury handcrafted leather shoes" loading="lazy">
+              </div>
+              <div class="category-overlay"></div>
+              <div class="category-content">
+                <span class="category-label">Shoes Collection</span>
+                <h2>Handcrafted Excellence</h2>
+                <button class="category-btn">Explore Collection</button>
+              </div>
+            </a>
+            <a href="#" class="category-card">
+              <div class="category-image">
+                <img src="ss2.png" alt="Premium leather designer bags" loading="lazy">
+              </div>
+              <div class="category-overlay"></div>
+              <div class="category-content">
+                <span class="category-label">Bags Collection</span>
+                <h2>Timeless Design</h2>
+                <button class="category-btn">Explore Collection</button>
+              </div>
+            </a>
           </div>
         </div>
-        <div class="category bags">
-          <div class="category-bg" style="background-image:url('placeholder.svg')"></div>
-          <div class="category-content">
-            <h2>BAGS</h2>
-            <p>Form and function. Designed with soul.</p>
-            <button class="cta">Explore Bags</button>
+      </section>
+      <section id="him-her" class="him-her-section">
+        <div class="container">
+          <div class="him-her-grid">
+            <div class="him-her-image" data-parallax>
+              <img src="himher.png" alt="Couple wearing matching SMB leather sandals" loading="lazy">
+            </div>
+            <div class="him-her-content">
+              <div class="content-wrapper">
+                <h2 class="fade-in">Two Steps. One Story.</h2>
+                <p class="fade-in">Crafted in harmony. Designed for both.</p>
+                <a href="#" class="him-her-cta fade-in">View Couple Edit</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="him-her-section">
-        <div class="him-her-bg" style="background-image:url('placeholder.svg')"></div>
-        <div class="him-her-content">
-          <h2>Two Steps. One Story.</h2>
-          <p class="him-her-quote">"His and hers, handcrafted."</p>
-          <button class="cta">View Couple Edit</button>
+      <section id="collection" class="collection-section">
+        <div class="container">
+          <div class="collection-header">
+            <h2>The Collection</h2>
+            <p>A curation of pieces where tradition meets modern design.</p>
+          </div>
+          
+          <div class="scroll-container">
+            <div class="scroll-row row-top">
+              <div class="scroll-content">
+                <!-- First set -->
+                <div class="product-item">
+                  <img src="ss1.png" alt="Classic Oxford – Men's" loading="lazy">
+                  <span class="product-name">Classic Oxford</span>
+                </div>
+                <div class="product-item">
+                  <img src="ss2.png" alt="Heritage Leather Tote" loading="lazy">
+                  <span class="product-name">Heritage Tote</span>
+                </div>
+                <div class="product-item">
+                  <img src="himher.png" alt="Summer Slide – Women's" loading="lazy">
+                  <span class="product-name">Summer Slide</span>
+                </div>
+                <!-- Duplicate set for seamless loop -->
+                <div class="product-item">
+                  <img src="ss1.png" alt="Classic Oxford – Men's" loading="lazy">
+                  <span class="product-name">Classic Oxford</span>
+                </div>
+                <div class="product-item">
+                  <img src="ss2.png" alt="Heritage Leather Tote" loading="lazy">
+                  <span class="product-name">Heritage Tote</span>
+                </div>
+                <div class="product-item">
+                  <img src="himher.png" alt="Summer Slide – Women's" loading="lazy">
+                  <span class="product-name">Summer Slide</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-row row-bottom">
+              <div class="scroll-content">
+                <!-- First set -->
+                <div class="product-item">
+                  <img src="ss2.png" alt="Weekend Duffle Bag" loading="lazy">
+                  <span class="product-name">Weekend Duffle</span>
+                </div>
+                <div class="product-item">
+                  <img src="himher.png" alt="Elegant Mule – Women's" loading="lazy">
+                  <span class="product-name">Elegant Mule</span>
+                </div>
+                <div class="product-item">
+                  <img src="ss1.png" alt="Business Brief" loading="lazy">
+                  <span class="product-name">Business Brief</span>
+                </div>
+                <!-- Duplicate set for seamless loop -->
+                <div class="product-item">
+                  <img src="ss2.png" alt="Weekend Duffle Bag" loading="lazy">
+                  <span class="product-name">Weekend Duffle</span>
+                </div>
+                <div class="product-item">
+                  <img src="himher.png" alt="Elegant Mule – Women's" loading="lazy">
+                  <span class="product-name">Elegant Mule</span>
+                </div>
+                <div class="product-item">
+                  <img src="ss1.png" alt="Business Brief" loading="lazy">
+                  <span class="product-name">Business Brief</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section id="gallery" class="gallery-section">
-        <h2>The Collection</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item"><img src="placeholder.svg" alt="Midnight Loafer"><div class="gallery-caption">Midnight Loafer<br><span>Shoes</span></div></div>
-          <div class="gallery-item"><img src="placeholder.svg" alt="Executive Briefcase"><div class="gallery-caption">Executive Briefcase<br><span>Bags</span></div></div>
-          <div class="gallery-item"><img src="placeholder.svg" alt="Summer Sandals"><div class="gallery-caption">Summer Sandals<br><span>Shoes</span></div></div>
-          <div class="gallery-item"><img src="placeholder.svg" alt="Weekend Tote"><div class="gallery-caption">Weekend Tote<br><span>Bags</span></div></div>
-          <div class="gallery-item"><img src="placeholder.svg" alt="Classic Oxford"><div class="gallery-caption">Classic Oxford<br><span>Shoes</span></div></div>
-          <div class="gallery-item"><img src="placeholder.svg" alt="Crossbody Elegance"><div class="gallery-caption">Crossbody Elegance<br><span>Bags</span></div></div>
+     
+      <section id="collab-spotlight" class="collab-section">
+        <div class="collab-container">
+          <div class="collab-media">
+            <div class="media-wrapper">
+              <video 
+                poster="himher.png"
+                autoplay 
+                muted 
+                loop 
+                playsinline
+              >
+                <source src="video/sarki-collab.mp4" type="video/mp4">
+                <!-- Fallback image if video fails -->
+                <img src="himher.png" alt="Sarki Mota x SMB Designs Collaboration">
+              </video>
+            </div>
+          </div>
+          <div class="collab-content">
+            <div class="content-wrapper">
+              <span class="collab-label">Partnership</span>
+              <h2>Collab Spotlight</h2>
+              <blockquote>
+                <p>"Big man knows quality when he feels it."</p>
+                <cite>— Sarki Mota</cite>
+              </blockquote>
+              <p class="collab-context">We partnered with <strong>Sarki Mota</strong>, Nigeria's iconic car dealer, to celebrate power, precision, and personal style. It's more than leather — it's legacy.</p>
+              <a href="#collab" class="collab-btn">See More Collaborations</a>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="collab-section">
-        <div class="collab-bg" style="background-image:url('placeholder.svg')"></div>
-        <div class="collab-content">
-          <h2>Collab Spotlight</h2>
-          <blockquote>"Big man knows quality when he feels it."</blockquote>
-          <cite>– Sarki Mota</cite>
-          <p>We partnered with Nigeria's iconic auto dealer to celebrate power, precision, and style.</p>
-          <button class="cta">See More Collaborations</button>
-        </div>
-      </section>
-      <section id="craft" class="craft-section">
-        <h2>Our Craft</h2>
-        <div class="craft-steps">
-          <div class="craft-step"><div class="craft-icon">🐄</div><div><h3>Premium Leather Selection</h3><p>Hand-selected full-grain leather from the finest tanneries</p></div></div>
-          <div class="craft-step"><div class="craft-icon">✂️</div><div><h3>Precision Shaping</h3><p>Each piece is carefully cut and shaped by master craftsmen</p></div></div>
-          <div class="craft-step"><div class="craft-icon">🪡</div><div><h3>Expert Stitching</h3><p>Traditional techniques passed down through generations</p></div></div>
-          <div class="craft-step"><div class="craft-icon">✨</div><div><h3>Perfect Finishing</h3><p>Hand-polished and finished to perfection</p></div></div>
+      <section id="our-craft" class="craft-section">
+        <div class="container">
+          <div class="craft-header">
+            <h2>Our Craft</h2>
+            <p>Every piece tells a story. Here's how we bring yours to life.</p>
+          </div>
+
+          <div class="craft-steps">
+            <div class="craft-step" data-scroll>
+              <div class="step-media">
+                <img src="ss1.png" alt="Premium leather selection process" loading="lazy">
+              </div>
+              <div class="step-content">
+                <span class="step-number">01</span>
+                <div class="step-text">
+                  <h3>Selection</h3>
+                  <p>We handpick premium, full-grain leathers sourced from trusted tanneries. Each hide is carefully inspected for quality and character, ensuring only the finest materials make it to our workshop.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="craft-step reverse" data-scroll>
+              <div class="step-media">
+                <img src="ss2.png" alt="Precision leather shaping and patterning" loading="lazy">
+              </div>
+              <div class="step-content">
+                <span class="step-number">02</span>
+                <div class="step-text">
+                  <h3>Shaping</h3>
+                  <p>Patterns are cut and shaped with precision, ensuring perfect form and fit. Our artisans combine traditional techniques with modern precision to create pieces that honor both heritage and innovation.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="craft-step" data-scroll>
+              <div class="step-media">
+                <img src="himher.png" alt="Meticulous hand-stitching process" loading="lazy">
+              </div>
+              <div class="step-content">
+                <span class="step-number">03</span>
+                <div class="step-text">
+                  <h3>Stitching</h3>
+                  <p>Each stitch is guided by hand — no shortcuts, just craftsmanship. Our artisans use time-honored techniques passed down through generations, ensuring durability and beauty in every seam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="craft-step reverse" data-scroll>
+              <div class="step-media">
+                <img src="ss1.png" alt="Final finishing and quality control" loading="lazy">
+              </div>
+              <div class="step-content">
+                <span class="step-number">04</span>
+                <div class="step-text">
+                  <h3>Finish</h3>
+                  <p>From polishing to packaging, we obsess over every final detail. Each piece undergoes rigorous quality control, ensuring it meets our exacting standards before reaching your hands.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="store-coming-section">
@@ -140,18 +302,88 @@
           </form>
           <div class="contact-info">
             <h3>Connect With Us</h3>
-            <div class="contact-method"><span>📱</span><div><strong>WhatsApp</strong><br>+234 xxx xxx xxxx</div></div>
-            <div class="contact-method"><span>📷</span><div><strong>Instagram</strong><br>@smbdesigns</div></div>
-            <div class="contact-method"><span>✉️</span><div><strong>Email</strong><br>hello@smbdesigns.com</div></div>
+            <div class="contact-method">
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <div><strong>WhatsApp</strong><br>+234 xxx xxx xxxx</div>
+            </div>
+            <div class="contact-method">
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <div><strong>Instagram</strong><br>@smbdesigns</div>
+            </div>
+            <div class="contact-method">
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <div><strong>Email</strong><br>hello@smbdesigns.com</div>
+            </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="footer-logo">SMB DESIGNS</div>
-        <div class="footer-quote">"Made with soul. Delivered with care."</div>
-        <div class="footer-copy">© 2024 SMB Designs. All rights reserved.</div>
+
+    <section id="find-us" class="find-us-section">
+      <div class="container">
+        <h2>Visit Us</h2>
+        <p class="subtext">Find where craftsmanship lives.</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7277267760514!2d3.3622661147157883!3d6.426184095344703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1647095457870!5m2!1sen!2sng"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="connect-section">
+      <div class="container">
+        <h2>Connect With Us</h2>
+        <p class="subtext">We're just a tap away.</p>
+
+        <div class="contact-grid">
+          <a href="tel:+2348012345678" class="contact-card">
+            <div class="card-content">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <span class="contact-text">+234 801 234 5678</span>
+            </div>
+          </a>
+
+          <a href="https://wa.me/2348012345678" target="_blank" rel="noopener" class="contact-card">
+            <div class="card-content">
+              <i class="fa-brands fa-whatsapp contact-icon"></i>
+              <span class="contact-text">WhatsApp Chat</span>
+            </div>
+          </a>
+
+          <a href="https://instagram.com/smbdesigns" target="_blank" rel="noopener" class="contact-card">
+            <div class="card-content">
+              <i class="fa-brands fa-instagram contact-icon"></i>
+              <span class="contact-text">@smbdesigns</span>
+            </div>
+          </a>
+
+          <a href="mailto:hello@smbdesigns.com" class="contact-card">
+            <div class="card-content">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <span class="contact-text">hello@smbdesigns.com</span>
+            </div>
+          </a>
+
+          <a href="https://tiktok.com/@smbdesigns" target="_blank" rel="noopener" class="contact-card">
+            <div class="card-content">
+              <i class="fa-brands fa-tiktok contact-icon"></i>
+              <span class="contact-text">@smbdesigns</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <p>&copy; 2024 SMB Designs. All rights reserved.</p>
       </div>
     </footer>
     <script src="main.js"></script>
